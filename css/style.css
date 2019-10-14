@@ -1,0 +1,107 @@
+/* Setup */
+body {
+    margin: auto;
+    padding: 0;
+    max-width: 80%;
+    background-color: #F1F1F1;
+    font-family: Arial;
+}
+
+/* Logo */
+
+#logo {
+    margin: 25px 0px;
+}
+
+/* Text Editor */
+
+#newpost input {
+    margin: 10px 0px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(#0090B2, #00648E);
+    color: #fff;
+    letter-spacing: .05em;
+    border-color: #005772;
+}
+
+/* Content Flexbox */
+
+#flex {
+    display: flex;
+    border-bottom: 2px solid #005772;
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
+
+/* Feed Section */
+
+#feed {
+    flex-direction: column;
+    background-color: #fff;
+    height: 700px;
+    width: 70%;
+    padding-left: 2em;
+}
+
+#feed h1{
+    color: #A4A4A4;
+    font-size: 2em;
+}
+
+#feed p {
+    font-family: Georgia;
+    color: #007DA5;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#feed small {
+    color: #999999;
+}
+
+#feed button {
+    background-color: transparent;
+    border: none;
+}
+
+#feed a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+#feed hr {
+    margin-right: 1em;
+}
+
+/* Profile Section */
+
+#profile {
+    flex-direction: column;
+    background-color: #007DA5;
+    width: 30%;
+    border-left: 1px solid #005772;
+}
+
+#profile img {
+    margin: 2em 0 0 2em;
+}
+
+#profile h1 {
+    font-size: 2em;
+    padding-bottom: -2em;
+}
+
+#profile h1, #profile h3, #profile p{
+    margin-left: 30px;
+    color: #fff;
+}
+
+#profile a {
+    color: #fff;
+}
+
+#totalposts {
+    color: #00CDFF;
+}
